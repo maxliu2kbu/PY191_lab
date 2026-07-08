@@ -23,3 +23,14 @@ builder = ""
 for j in new:
     builder += j + ' '
 print(builder)
+
+string = "Happy Birthday to Jace"
+builder = ""
+count = 0
+for i in string:
+    count += 1
+    if (count % 7 == 0):
+        builder += str(7)
+    else:
+        builder += i
+print(builder)
