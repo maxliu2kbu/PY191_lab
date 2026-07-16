@@ -58,7 +58,7 @@ if __name__ == "__main__":
         # Get stock data
         df = get_stock(
             ticker=ticker,
-            start_date="2025-01-01",
+            start_date="2021-01-01",
             end_date="2025-12-31",
             s_window=14,
             l_window=50
